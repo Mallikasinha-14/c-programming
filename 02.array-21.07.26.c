@@ -12,7 +12,7 @@ int main()
     int pos,ele;
     printf("Enter pos:");
     scanf("%d",&pos);
-    printf("Enter elements:");
+    printf("Enter element:");
     scanf("%d",&ele);
     for(int i=n; i>=pos;i--){
         a[i]=a[i-1];
