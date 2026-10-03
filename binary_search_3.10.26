@@ -1,0 +1,29 @@
+#include<stdio.h>
+
+int main(){
+
+    int arr[100]={5,21,26,52,54};
+    int n = 5;
+    int target;
+    int end = n-1;
+    int st = 0;
+    printf("Enter element");
+    scanf("%d",&target);
+    while(st<=end){
+        int mid = (end+st)/2;
+        if(arr[mid]==target){
+           printf("%d ",mid);
+            break;
+        }
+        else if(arr[mid]<target){
+            st=mid+1;
+           
+        }
+        else{
+            end = mid-1;
+        }
+    }
+ 
+
+    return 0;
+}
