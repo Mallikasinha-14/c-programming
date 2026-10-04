@@ -62,7 +62,6 @@ int main() {
 
     head = prev;
 
-    // Display reversed linked list
     printf("\n\nReversed Linked List: ");
 
     temp = head;
